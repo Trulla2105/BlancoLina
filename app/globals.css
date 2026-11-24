@@ -503,11 +503,14 @@ h4 {
 }
 .quick-add {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  /* minmax(0, …): sin esto el ancho propio de la foto agranda la columna y
+     la de la derecha queda cortada. */
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
 }
 .quick-add-img {
   background: var(--img-bg);
   aspect-ratio: 1;
+  align-self: start;
 }
 .quick-add-img img {
   width: 100%;
@@ -2410,7 +2413,7 @@ h4 {
     font-size: 24px;
   }
   .quick-add {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
   .quick-add-img {
     aspect-ratio: 4 / 3;
