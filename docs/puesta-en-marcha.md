@@ -34,7 +34,7 @@ palabra por palabra.
 1. **Add New → Project** → importar el repositorio de GitHub.
 2. En **Environment Variables** cargar (ver `.env.local.example`):
    - `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` (obligatorias)
-   - `NEXT_PUBLIC_SITE_URL` = la dirección final con https (ej.
+   - `NEXT_PUBLIC_SITE_URL` = la dirección final (ej.
      `https://www.hogarlina.com.ar`). Se usa en los links de los emails y en
      la vuelta de Mercado Pago.
 3. **Deploy**. Vercel publica desde la rama `main`; cada PR tiene además una
