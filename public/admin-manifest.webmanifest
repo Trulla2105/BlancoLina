@@ -1,0 +1,13 @@
+{
+  "name": "Hogar Lina — Panel",
+  "short_name": "Hogar Lina Panel",
+  "description": "Panel de administración de Hogar Lina: pedidos, productos, fotos y configuración.",
+  "start_url": "/admin",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7a1f2b",
+  "icons": [
+    { "src": "/pwa-icon.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/apple-icon.png", "sizes": "180x180", "type": "image/png" }
+  ]
+}
